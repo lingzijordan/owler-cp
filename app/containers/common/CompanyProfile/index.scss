@@ -1,0 +1,46 @@
+.company-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .flex-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .flex-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .left-block {
+      flex: 1 0 0px;
+    }
+    .righ-block {
+      flex: 1 0 0px;
+    }
+    .social-icons {
+      width: 25px;
+      height: 25px;
+      margin: 0px 10px;
+    }
+    .competetors-block {
+      height: 350px;
+      background-color: #FFFFFF;
+    }
+  }
+  .brief {
+    flex: 1 0 0px;
+  }
+  .company-stats {
+    flex: 1 0 0px;
+  }
+  .competetive-set {
+    flex: 1 0 0px;
+  }
+}
